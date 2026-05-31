@@ -1,15 +1,61 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Android / Gradle
+.gradle/
+.kotlin/
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local machine configuration
 local.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+
+# Android Studio / IntelliJ
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+secrets.*
+*.secret
+*.secrets
+
+# AI assistant/editor artifacts
+.codex/
+codex-*.log
+codex-*.json
+.claude/
+claude-*.log
+.cursor/
+.cursorignore
+.cursorrules
+.idea/firebender/
+.continue/
+.aider*
+.copilot/
+ai-notes/
+ai_logs/
+ai-output/
+prompts/
+prompt-history/
+chat-history/
+conversation*.json
+conversation*.md
+transcript*.json
+transcript*.md
